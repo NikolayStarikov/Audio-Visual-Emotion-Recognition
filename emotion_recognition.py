@@ -2,7 +2,7 @@
 The data has 286 rows and 146 columns.
 The classes:  {1, 2, 3, 4, 5, 6}
 The accuracy on the test dataset is 0.724.
-The average cross-validation accuracies over 4 folds is 0.779 with standard deviation of 0.043.
+The average cross-validation accuracy over 4 folds is 0.779 with standard deviation of 0.043.
 '''
 
 import pandas as pd
