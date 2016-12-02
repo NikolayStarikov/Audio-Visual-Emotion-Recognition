@@ -51,4 +51,7 @@ print('The accuracy on the test dataset is %.3f.' % accuracy)
 x_tot_std = np.vstack((x_train_std, x_test_std))
 y_tot = np.vstack((y_train.reshape((y_train.shape[0],1)), y_test.reshape((y_test.shape[0],1))))
 scores = cross_val_score(svm, x_train_std, y_train, cv=4)
-print('The average cross-validation accuracies over %d folds is %.3f with standard deviation of %.3f.' % (4, scores.mean(), scores.std()))
+print('The average cross-validation accuracies over %d folds is %.3f with standard deviation of %.3f.' 
+      % (4, scores.mean(), scores.std()))
+
+
